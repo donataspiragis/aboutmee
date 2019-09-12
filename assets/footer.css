@@ -1,0 +1,75 @@
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+}
+footer > a {
+    position: absolute;
+    top: -25px;
+    background: #E31B6D;
+    font-size: 30pt;
+    width: 47px;
+    height: 50px;
+    line-height: 40pt;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background .5s;
+    text-align: center;
+    text-decoration: none;
+}
+footer > a:hover {
+    background: #fb1f79;
+}
+
+.foot-content {
+    width: 100%;
+    padding: 50px 0 35px 0;
+}
+#footer > .container > div > .icons-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    padding: 2px 0;
+}
+#footer > .container > div > .icons-cont > a > .icon {
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    text-align: center;
+    margin: 0 15px;
+    background: #262F38;
+    font-size: 18pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .okk {
+     color: #fff;
+     text-align: center;
+ }
+#footer > .container > div > .icons-cont > a > .icon:hover {
+    background: #04C2C9;
+    box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
+    transform: scale(0.9);
+}
+.copyright {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 2px 5px;
+    color: #8F9AA7;
+    opacity: 0.6;
+    margin-top: 15px;
+}
+
+
+

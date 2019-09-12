@@ -1,0 +1,18 @@
+.nav-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 10;
+}
+
+.nav-container > .nav-elements {
+    border-radius: 10px;
+}
+
+.nav-container > .nav-elements > a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}

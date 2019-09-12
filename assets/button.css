@@ -1,0 +1,31 @@
+.btn {
+    text-decoration: none;
+    min-width: 180px;
+    max-width: 230px;
+    display: inline-block;
+    padding: 13px 5px;
+    margin: 6px 4px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    border-radius: 36px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.btn-form {
+    background-color: #E45447;
+    color: #fff;
+    border: 1px solid #E45447;
+}
+.btn-form:hover {
+    background-color: #fff;
+    border: 1px solid #E45447;
+    color: #E45447;
+    cursor: pointer;
+}
+
+.btn-green:hover  {
+    background-color: #04C2C9;
+}

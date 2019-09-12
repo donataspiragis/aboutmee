@@ -1,0 +1,48 @@
+
+.contact-head {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.bar-bottom {
+    text-align: center;
+    margin: 25px 0 40px 0;
+    background: #fff;
+    width: 110px;
+    height: 4px;
+}
+.inputs-contact {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    padding: 10px 15px;
+    background: #1E242C;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    color: #fff;
+}
+
+.area-text {
+display: block;
+width: 100%;
+box-sizing: border-box;
+outline: none;
+border: 0;
+padding: 10px 15px;
+background: #1E242C;
+font-size: 12pt;
+margin-bottom: 3px;
+color: #fff;
+}
+
+.just-colum > form {
+    margin-bottom: 40px;
+    max-width: 500px;
+    margin: 10px auto 20px auto;
+}

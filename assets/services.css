@@ -1,0 +1,115 @@
+.container > #services {
+    font-weight: 700;
+}
+.services {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: inline-block;
+    float: left;
+    margin-right: 45px;
+    width: calc( (100% - 3*30px) / 4 );
+    padding: 60px 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    background-color: #F9F9FF;
+    word-break: break-word;
+}
+    .card:hover {
+        animation-name: card_up;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        margin-top: -20px;
+    }
+    @keyframes card_up {
+        0% {
+            margin-top: 0px;
+        }
+        100%{
+            margin-top: -20px;
+        }
+    }
+        .card > i {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+            line-height: 80px;
+            font-size: 32px;
+            background-color: #DFE6F4;
+            color: #585A5C;
+            border: 2px solid var(--color-secondary);
+            border-radius: 50%;
+            animation: water_wave 3s linear infinite;
+            box-shadow: -4px 0 0 #DFE6F4, inset -2px 0 0 #F3F5FD;
+        }
+        .card > h3 {
+            display: inline-block;
+            width: 100%;
+            line-height: 28px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #585A5C;
+            text-transform: uppercase;
+        }
+        .card > p{
+            font-size: 14px;
+            color: #777;
+        }
+.hexagon {
+    position: relative;
+    width: 100px; 
+    height: 57.74px;
+    background-color: #64C7CC;
+    margin: 28.87px 0;
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+    text-align: center;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 70.71px;
+    height: 70.71px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 14.6447px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+  }
+  
+  .hexagon:before {
+    top: -35.3553px;
+  }
+  
+  .hexagon:after {
+    bottom: -35.3553px;
+  }
+  
+  /*cover up extra shadows*/
+  .hexagon span {
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0;
+    width:100px;
+    height:57.7350px;
+    z-index: 2;
+    background: inherit;
+  }
+  .hexagon > span > i {
+    position: absolute;
+    top: 0;
+    font-size: 45px;
+    color: #fff;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+

@@ -1,0 +1,43 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.hero > .image {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.hero-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px #222;
+  
+}
+.hero-content > h1 {
+    font-size: 52px;
+    letter-spacing: 7px;
+    margin-bottom: 7px;
+}
+.hero-content > p {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 7px;
+}
+
+.highlight {
+    font-weight: 700;
+    color: #E31B6D;
+    text-shadow: 0.5px 0.5px #E31B6D;
+}

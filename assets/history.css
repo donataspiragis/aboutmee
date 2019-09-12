@@ -1,0 +1,9 @@
+.histories {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.history-elements {
+    margin: 5px 0 3px 0;
+    padding: 10px;
+}
