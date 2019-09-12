@@ -23,7 +23,6 @@
     transform: translate(-50%, -50%);
     color: var(--color-secondary-light);
     text-shadow: 0.5px 0.5px var(--color-black);
-  
 }
 .hero-content > h1 {
     font-size: 56px;
@@ -31,6 +30,7 @@
     margin-bottom: 7px;
     animation: fromTop 1s linear;
     animation-fill-mode: both;
+    font-family: 'Arima Madurai', cursive, sans-serif;
 }
 @keyframes fromTop {
     0% {
@@ -49,6 +49,7 @@
     text-shadow: 0.5px 0.5px var(--color-grey);
     animation: fromBottom 1s linear;
     animation-fill-mode: both;
+    font-family: 'Arima Madurai', cursive, sans-serif;
 }
 
 @keyframes fromBottom {
@@ -76,9 +77,4 @@
 
         opacity: 1;
     }
-}
-.highlight {
-    font-weight: 700;
-    color: var(--color-primary-shaded);
-    text-shadow: 0.5px 0.5px var(--color-primary-shaded);
 }
