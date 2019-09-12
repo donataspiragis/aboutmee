@@ -2,13 +2,13 @@
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #222;
-    color: #fff;
+    background-color: var(--color-black);
+    color: var(--color-secondary-light);
 }
 footer > a {
     position: absolute;
     top: -25px;
-    background: #E31B6D;
+    background: var(--color-primary-shaded);
     font-size: 30pt;
     width: 47px;
     height: 50px;
@@ -22,7 +22,7 @@ footer > a {
     text-decoration: none;
 }
 footer > a:hover {
-    background: #fb1f79;
+    background: var(--color-primary-shaded-hover);
 }
 
 .foot-content {
@@ -51,11 +51,11 @@ footer > a:hover {
     align-items: center;
 }
  .okk {
-     color: #fff;
+     color: var(--color-secondary-light);
      text-align: center;
  }
 #footer > .container > div > .icons-cont > a > .icon:hover {
-    background: #04C2C9;
+    background: var(--color-blue);
     box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
     transform: scale(0.9);
 }
@@ -66,7 +66,7 @@ footer > a:hover {
     font-size: 17px;
     line-height: 20px;
     padding: 2px 5px;
-    color: #8F9AA7;
+    color: var(--color-grey);
     opacity: 0.6;
     margin-top: 15px;
 }

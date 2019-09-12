@@ -1,7 +1,8 @@
 .container > #services {
     font-weight: 700;
 }
-.services {
+
+.flex-fix {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,7 @@
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     text-align: center;
-    background-color: #F9F9FF;
+    background-color: var(--color-secondary-light);
     word-break: break-word;
 }
     .card:hover {
@@ -39,12 +40,11 @@
             margin-bottom: 15px;
             line-height: 80px;
             font-size: 32px;
-            background-color: #DFE6F4;
-            color: #585A5C;
+            background-color: var(--color-grey);
             border: 2px solid var(--color-secondary);
             border-radius: 50%;
             animation: water_wave 3s linear infinite;
-            box-shadow: -4px 0 0 #DFE6F4, inset -2px 0 0 #F3F5FD;
+            box-shadow: -4px 0 0 var(--color-grey), inset -2px 0 0 #F3F5FD;
         }
         .card > h3 {
             display: inline-block;
@@ -52,18 +52,21 @@
             line-height: 28px;
             font-size: 14px;
             font-weight: bold;
-            color: #585A5C;
+            color: var(--color-black-shaded);
             text-transform: uppercase;
         }
         .card > p{
             font-size: 14px;
-            color: #777;
+            color: var(--color-grey-dark);
         }
+.cards-list {
+    margin-bottom: 18px;
+}
 .hexagon {
     position: relative;
     width: 100px; 
     height: 57.74px;
-    background-color: #64C7CC;
+    background-color: var(--color-blue);
     margin: 28.87px 0;
     box-shadow: 0 0 6px rgba(0,0,0,0.6);
     text-align: center;
@@ -107,7 +110,7 @@
     position: absolute;
     top: 0;
     font-size: 45px;
-    color: #fff;
+    color: var(--color-secondary-light);
     left: 0;
     right: 0;
     z-index: 1;

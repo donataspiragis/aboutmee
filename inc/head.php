@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/footer.css">
     <link rel="stylesheet" href="assets/contact.css">
     <link rel="stylesheet" href="assets/history.css">
+    <link rel="stylesheet" href="assets/about.css">
     
     <title>About me</title>
 </head>

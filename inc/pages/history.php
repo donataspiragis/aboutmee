@@ -1,3 +1,4 @@
+<section class="section-margin">
 <div class="container histories">
     <h1 id="history">History</h1>
     <div class="bar-bottom bcm-black"></div>
@@ -35,3 +36,5 @@
         </ul>
     </div>
 </div>
+
+</section>

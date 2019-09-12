@@ -1,3 +1,5 @@
+<section class="section-margin grey-background section-bigger">
+
 <div class="container">
     <div class="colum-1">
         <img src="images/me.jpg" alt="my photo">
@@ -13,3 +15,5 @@
         <a href="#contact" class="btn btn-form">Contact Me</a>
     </div>
 </div>
+
+</section>

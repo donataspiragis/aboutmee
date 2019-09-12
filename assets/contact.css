@@ -6,12 +6,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+    color: var(--secondary-light);
 }
 .bar-bottom {
     text-align: center;
     margin: 25px 0 40px 0;
-    background: #fff;
+    background: var(--secondary-light);
     width: 110px;
     height: 4px;
 }
@@ -22,10 +22,10 @@
     outline: none;
     border: 0;
     padding: 10px 15px;
-    background: #1E242C;
+    background-color: var(--color-black-shaded);
     font-size: 12pt;
     margin-bottom: 3px;
-    color: #fff;
+    color: var(--secondary-light);
 }
 
 .area-text {
@@ -35,10 +35,10 @@ box-sizing: border-box;
 outline: none;
 border: 0;
 padding: 10px 15px;
-background: #1E242C;
+background-color: var(--color-black-shaded);
 font-size: 12pt;
 margin-bottom: 3px;
-color: #fff;
+color: var(--secondary-light);
 }
 
 .just-colum > form {

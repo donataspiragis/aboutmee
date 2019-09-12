@@ -1,9 +1,10 @@
-<div class="container services">
+<div class="section-margin">
+<div class="container flex-fix">
     <h1 id="services">SERVICES</h1>
     <div class="bar-bottom bcm-black"></div>
 </div>
 
-<div class="container">
+<div class="container cards-list">
 <div class="card">
     <i class="far fa-lightbulb"></i>
     <h3>Web design</h3>
@@ -20,7 +21,7 @@
     <p>I can help you with managing your project</p>    
 </div>
 </div>
-<div class="container services">
+<div class="container flex-fix">
     <h1 id="services">MY SERVICES ARE</h1>
 </div>
 <div class="container">
@@ -44,4 +45,6 @@
     <h5>Dynamic</h5>
     <p>Websites don't have to be static, I love making pages come to life.</p>
     </div>
+</div>
+
 </div>
