@@ -12,7 +12,7 @@
 <div class="card">
     <i class="fab fa-android"></i>
     <h3>Web development</h3>
-    <p>I can create for you website</p>    
+    <p>I can create for you responsive website</p>    
 </div>
 <div class="card">
     <i class="far fa-address-book"></i>
