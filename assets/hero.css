@@ -12,7 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .hero-content {
@@ -26,16 +26,57 @@
   
 }
 .hero-content > h1 {
-    font-size: 52px;
+    font-size: 56px;
     letter-spacing: 7px;
     margin-bottom: 7px;
+    animation: fromTop 1s linear;
+    animation-fill-mode: both;
+}
+@keyframes fromTop {
+    0% {
+        transform: translate3d(0, -70px, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
 }
 .hero-content > p {
-    font-size: 30px;
-    letter-spacing: 3px;
+    font-size: 40px;
+    letter-spacing: 2px;
     margin-bottom: 7px;
+    text-shadow: 0.5px 0.5px var(--color-grey);
+    animation: fromBottom 1s linear;
+    animation-fill-mode: both;
 }
 
+@keyframes fromBottom {
+    0% {
+        transform: translate3d(0, 70px, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.btn-animated {
+    animation: btnAppear 0.5s linear;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+@keyframes btnAppear {
+    0% {
+
+        opacity: 0;
+    }
+    100% {
+
+        opacity: 1;
+    }
+}
 .highlight {
     font-weight: 700;
     color: var(--color-primary-shaded);
