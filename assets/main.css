@@ -52,6 +52,9 @@ body * {
     background: var(--color-primary-shaded) !important;
     color: var(--color-primary-shaded)  !important;
 }
+.bcm-white {
+    background: var(--color-secondary-light) !important;
+}
 .section-margin {
     margin-top: 85px;
     margin-bottom: 15px;

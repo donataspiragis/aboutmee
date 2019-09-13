@@ -1,0 +1,14 @@
+.skills > .container > h1 {
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 2em;
+}
+
+.card > img {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 15px;
+    line-height: 80px;
+    font-size: 32px;
+}

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/contact.css">
     <link rel="stylesheet" href="assets/history.css">
     <link rel="stylesheet" href="assets/about.css">
+    <link rel="stylesheet" href="assets/skills.css">
     
     <title>About me</title>
 </head>
