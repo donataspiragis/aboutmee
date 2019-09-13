@@ -1,14 +1,66 @@
+.skills {
+    text-align: center;
+}
 .skills > .container > h1 {
     padding: 15px;
-    margin: 15px 0;
+    margin: 15px 0 2px 0;
     font-size: 2em;
 }
 
-.card > img {
+.card-skill > .img-cont > img {
     display: inline-block;
-    width: 150px;
-    height: 80px;
+    width: 90%;
     margin-bottom: 15px;
     line-height: 80px;
     font-size: 32px;
 }
+
+.img-cont {
+    width: 100%;
+    display: inline-block;
+    height: 70%;
+}
+
+.card-skill {
+    display: inline-block;
+    float: left;
+    margin-right: 45px;
+    width: calc( (100% - 5*30px) / 5 );
+    padding: 15px 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    background-color: var(--color-green);
+    word-break: break-word;
+}
+    .card-skill:hover {
+        animation-name: card_uper;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        margin-top: -20px;
+    }
+    @keyframes card_uper {
+        0% {
+            margin-top: 0px;
+        }
+        100%{
+            margin-top: -20px;
+        }
+    }
+
+        .card-skill > h5 {
+            display: inline-block;
+            width: 100%;
+            line-height: 30px;
+            font-size: 20px;
+            min-height: 30px;
+            max-height: 60px;
+            font-weight: bold;
+            color: var(--color-black-shaded);
+            text-transform: uppercase;
+        }
+        .card-skill > p{
+            font-size: 16px;
+            margin-top: 10px;
+            color: var(--color-grey-dark);
+        }
