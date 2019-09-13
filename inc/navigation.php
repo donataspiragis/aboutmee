@@ -1,20 +1,28 @@
-<nav class="nav-container">
-<div class="nav-elements">
-        <a href="#">Home</a>
-    </div>
-    <div class="nav-elements">
+<div class="burger-cont">
+<div class="menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+</div>
+
+<div id="header_menu" class="navigation sliding-menu">
+    <div class="sliding-part part-left">
+        <a href="#" class="active">Home</a>
         <a href="#services">Services</a>
-    </div>
-    <div class="nav-elements">
         <a href="#about">About me</a>
-    </div>
-    <div class="nav-elements">
         <a href="#history">History</a>
-    </div>
-    <div class="nav-elements">
         <a href="#skills">Skills</a>
-    </div>
-    <div class="nav-elements">
         <a href="#contact">Contact me</a>
     </div>
-</nav>
+    <div class="sliding-part part-right">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-vimeo"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </div>
+</div>
+
+
+

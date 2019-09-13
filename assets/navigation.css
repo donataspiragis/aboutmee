@@ -1,3 +1,7 @@
+.navigation {
+    display: none;
+}
+
 .nav-container {
     display: flex;
     position: absolute;
@@ -16,3 +20,56 @@
     padding: 5px;
     text-decoration: none;
 }
+
+.burger-cont {
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    top: 25px;
+    right: 70px;
+    z-index: 15;
+}
+
+.menu {
+    display: inline-block;
+    float: right;  
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+    .menu:hover {
+        cursor: pointer;
+    }
+    .menu > span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: var(--color-secondary-light);
+        border-radius: 5px;
+        margin: 1px 0;
+        transition: ease-in-out .25s;
+    }
+    .menu > span:nth-child(1) {
+       top: 0px;
+    }
+.menu > span:nth-child(2) {
+        top: 12.5px;
+    }
+     .menu > span:nth-child(3) {
+        top: 25px;
+    }
+
+    .open > span:nth-child(1) {
+        transform: rotate(135deg);
+        top: 12px;
+    }
+     .open > span:nth-child(2) {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    .open > span:nth-child(3) {
+        transform: rotate(-135deg);
+        top: 12px;
+    }
