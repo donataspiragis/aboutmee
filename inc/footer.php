@@ -21,7 +21,7 @@
                 </a>
             </div>
             <div class="copyright">
-                Donatas Piragis -PieCode-
+                Donatas Piragis -PieCode- &copy; <?php echo date ('Y'); ?>
             </div>
         </div>
     </div>
