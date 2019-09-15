@@ -3,6 +3,39 @@
     justify-content: center;
     align-items: center;
 }
+.line-history {
+    display: inline-block;
+    width: 3%;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+}
+.the-line {
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--color-blue); 
+}
+/* .line-history > .the-line > span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 15px 0 25px 0;
+    border-radius: 50%;
+    background-color: blue; 
+} */
+
+.history-content {
+    display: inline-block;
+    width: 95%;
+    float: right;
+    color: var(--color-grey-dark);
+}
+
+
+
 .history-elements {
     margin: 5px 0 3px 0;
     padding: 10px;

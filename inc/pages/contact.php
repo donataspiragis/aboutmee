@@ -6,7 +6,7 @@ xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
 <div class="container">
     <div class="contact-head">
         <h1 id="contact">CONTACT</h1>
-        <div class="bar-bottom"></div>
+        <div class="bar-bottom bcm-white"></div>
         <p>Have a question or want to work together?</p>
     </div>
 </div>
@@ -17,7 +17,7 @@ xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
             <input type="text" name="phone"  class="inputs-contact" placeholder="Your phone">
             <input type="text" name="email"   class="inputs-contact" placeholder="Your email">
             <textarea name="comment" class="area-text" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <button type="submit" name="submit" class="btn btn-green">Submit</button>
+            <button type="submit" name="submit" class="btn btn-green btn-g">Submit</button>
         </form>
     </div>
 </div>
