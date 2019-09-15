@@ -1,5 +1,5 @@
 <footer id="footer">
-    <a href="#"><i class="fas fa-arrow-up arrow" dest="home"></i></a>
+    <a href="#" id="scroller-top"><i class="fas fa-arrow-up arrow"></i></a>
     
     <div class="container">
         <div class="foot-content">
