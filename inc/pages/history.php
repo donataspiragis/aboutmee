@@ -1,4 +1,4 @@
-<section class="section-margin">
+<section class="section-margin section-bigger" id="hist-menu">
 <div class="container histories">
     <h1 id="history">History</h1>
     <div class="bar-bottom bcm-black"></div>

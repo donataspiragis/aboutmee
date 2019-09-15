@@ -10,6 +10,7 @@
         content = "Coding profile of PHP, Javascript, HTML, CSS" /> 
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link href="fonts/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/navigation.css">
     <link rel="stylesheet" href="assets/hero.css">

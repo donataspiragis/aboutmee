@@ -1,4 +1,4 @@
-<section class="section-margin-nbtm dark-grey skills">
+<section class="section-margin-nbtm dark-grey section-bigger skills" id="skills-men">
 <div class="container">
     <h1>SKILLS</h1>
 </div>

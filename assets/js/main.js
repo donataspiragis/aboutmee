@@ -23,3 +23,16 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+function stickToTop() {
+  if (window.pageYOffset > sticky + 400) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+window.onscroll = function() {stickToTop()};

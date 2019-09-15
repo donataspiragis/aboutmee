@@ -73,3 +73,35 @@
         transform: rotate(-135deg);
         top: 12px;
     }
+
+header {
+    display: none;
+
+}
+
+    .sticky {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        background: #1B242F;
+        border-bottom: 3px solid #04C2C9;
+        text-align: left;
+        box-shadow: 0 0 4px var(--color-grey);
+        transition: 0.3s ease-in-out;
+        z-index: 101;
+    }
+    .scrolled-menu-item > a {
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        padding: 3px 2px;
+        margin: 2px;
+        color: var(--color-secondary-light);
+    }
+    .scrolled-menu-item > a:hover {
+        color: var(--color-primary-shaded);
+    }

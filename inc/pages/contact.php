@@ -4,15 +4,15 @@ xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
       <path d="M0 0 L50 100 L100 0 Z" fill="#DFE6F4" stroke="#DFE6F4"></path>
     </svg>
 <div class="container">
-    <div class="contact-head">
-        <h1 id="contact">CONTACT</h1>
+    <div class="contact-head" data-aos="fade-left" data-aos-delay="350">
+        <h1 id="contact" >CONTACT</h1>
         <div class="bar-bottom bcm-white"></div>
-        <p>Have a question or want to work together?</p>
+        <p data-aos="fade-right">Have a question or want to work together?</p>
     </div>
 </div>
 <div class="container">
-    <div class="just-colum">
-        <form action="index.php" method="post">
+    <div class="just-colum" data-aos="zoom-in-down" data-aos-delay="350">
+        <form action="index.php" method="post" >
             <input type="text" name="name" class="inputs-contact" placeholder="Your name">
             <input type="text" name="phone"  class="inputs-contact" placeholder="Your phone">
             <input type="text" name="email"   class="inputs-contact" placeholder="Your email">
