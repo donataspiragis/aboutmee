@@ -16,6 +16,7 @@
 }
 .about-me > .container > .colum-2 {
     animation: slideInRight .75s ease both;
+    margin-bottom: 24px;
 }
 
 
