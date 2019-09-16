@@ -40,8 +40,28 @@
 }
 
 
-
 .history-elements {
-    margin: 5px 0 3px 0;
+    margin: 8px 0 5px 0;
     padding: 10px;
+    display: inline-block;
+    float: left;
+    width: 80%;
+}
+    .history-elements  > h3 {
+        text-align: center;
+    }
+    .history-elements  > h4 {
+        text-align: center;
+    }
+    .history-elements > ul {
+        list-style-type: none;
+    }
+        .history-elements > ul > li {
+            line-height: 25px;
+            margin-left: 17px;
+        }
+.year {
+    display: inline-block;
+    float: left;
+    width: 15%
 }

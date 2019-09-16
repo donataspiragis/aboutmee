@@ -13,35 +13,36 @@
         </div>
     </div>
     <div class="history-content">
-        <div class="history-elements">
+            <div class="year">2019</div>
+            <div class="history-elements">
             <h3>Developer</h3>
             <h4>BIT</h4>
-            <p>Responsibilities:</p>
+            <p><strong>Responsibilities:</strong></p>
             <ul>
-                <li>Web design developing;</li>
+                <li>Web design;</li>
                 <li>Web developing;</li>
                 <li>Back-end development;</li>
-                <li>Company representation.</li>
             </ul>
         </div>
+        <div class="year">2015-2019</div>
         <div class="history-elements">
             <h3>Director of Business Development</h3>
             <h4>UAB „Baltic adventure“</h4>
-            <p>Responsibilities:</p>
+            <p><strong> Responsibilities:</strong></p>
             <ul>
                 <li>Market and competitor’s analysis;</li>
                 <li>Development of solutions and strategy;</li>
-                <li>Sales reports and forecasts for future business opportunities;</li>
                 <li>Company representation;</li>
                 <li>New projects development;</li>
                 <li>Team-work assignment coordination;</li>
-                <li>Contracting with partners from: hotels, restaurants, logistic companies, production suppliers.</li>
+                <li>Contracting with partners.</li>
             </ul>
         </div>
+        <div class="year">2012-2015</div>
         <div class="history-elements">
             <h3>IT Project manager</h3>
             <h4>UAB „NBCS “</h4>
-            <p>Responsibilities:</p>
+            <p><strong>Responsibilities:</strong></p>
             <ul>
                 <li>IT systems analysis;</li>
                 <li>Market and competitor’s analysis;</li>
