@@ -1,0 +1,156 @@
+.prices {
+    background-color: var(--color-secondary-light);
+    width: 100%;
+}
+
+.price-card {
+    display: inline-block;
+    float: left;
+    width: calc( 100%  / 3 );
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    background-color: var(--color-secondary-light);
+    word-break: break-word;
+    margin-top: 30px;
+}
+.price-card:nth-child(1) {
+    margin-right: 21px;
+  }
+  .price-card:nth-child(2) {
+    margin-right: 21px;
+  }
+
+    .price-heading {
+        display: inline-block;
+        background-color: var(--color-green);
+        width: 100%;
+        padding: 35px 15px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .price-card:nth-child(2) >  .price-heading {
+        background-color: var(--color-primary-shaded);
+    }
+    .price-card:nth-child(3) >  .price-heading {
+        background-color: var( --color-secondary);
+    }
+     .price-heading > h1 {
+            display: inline-block;
+            width: 100%;
+            color: var(--color-secondary-light);
+            font-size: 20px;
+            padding-top: 25px;
+            letter-spacing: 2px;
+            line-height: 30px;
+        }
+
+    .price-content {
+        display: inline-block;
+        width: 100%;
+        padding: 10px 5px 30px 5px;
+        font-size: 18px;
+        line-height: 30px;
+        min-height: 409px;
+        max-height: 410px;
+        
+    }
+    .price-content > ol {
+        width: 100%;
+        display: block;
+        list-style-type: decimal;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 40px;
+        text-align: left;
+    }
+    .price-content > ol > li {
+        border-bottom: 1px solid var(--color-grey);
+        margin-bottom: 11px;
+        color: var(--color-grey-dark);
+    }
+    .price-price {
+        display: inline-block;
+        width: 100%;
+        padding: 15px;
+        color: var(--color-grey-dark);
+    }
+        .price-price > h3 {
+            color: var(--color-black-shaded);
+        }
+        .price-price > p {
+            margin-bottom: 15px;
+        }
+
+        @media ( max-width: 1050px ) {
+            .container {
+                width: 800px;
+                margin: 0 calc((100% - 800px) / 2);
+            }
+        }
+        @media ( max-width: 800px ) {
+            .container {
+                width: 590px;
+                margin: 0 calc((100% - 590px) / 2);
+            }
+        }
+        @media ( max-width: 590px ) {
+            * {
+                margin: 0;
+            }
+            .container {
+                width: 95%;
+                margin-left: 0;
+            } 
+            .pric-cont-fl {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .price-card {
+                display: block;
+                width: 90%;
+                border-radius: 8px;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+                text-align: center;
+                background-color: var(--color-secondary-light);
+                word-break: break-word;
+                margin: 20px;
+            }
+            .cont-skil {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .card-skill {
+                display: block;
+                margin-top: 15px;
+                width: 80%;
+                padding: 15px 15px;
+                border-radius: 8px;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+                text-align: center;
+                background-color: var(--color-green);
+                word-break: break-word;
+            }
+            .card-skill:hover {
+                animation-name: none;
+                animation-duration: 0;
+                animation-iteration-count: 0;
+                margin-top: 0;
+            }
+            header {
+                display: none;
+            
+            }
+            .sticky {
+                display: none;
+            }
+        }
+
+      

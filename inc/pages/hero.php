@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero" id="hero">
     <div class="image"></div>
     <div class="hero-content">
         <h1>&#60;<span class="highlight">Pie</span>Code&#62; </h1>

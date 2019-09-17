@@ -26,11 +26,12 @@
 <header id="header">
         <div class="container">
             <div class="scrolled-menu-item">
-                <a href="#" class="active">Home</a>
+                <a href="#hero" class="active">Home</a>
                 <a href="#servic-men">Services</a>
                 <a href="#about-me">About me</a>
                 <a href="#hist-menu">History</a>
                 <a href="#skills-men">Skills</a>
+                <a href="#price-men">Prices</a>
                 <a href="#contact">Contact me</a>
             </div>
         </div>

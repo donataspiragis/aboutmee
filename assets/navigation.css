@@ -93,6 +93,12 @@ header {
         transition: 0.3s ease-in-out;
         z-index: 101;
     }
+    .scrolled-menu-item {
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+        justify-content: center;
+    }
     .scrolled-menu-item > a {
         text-decoration: none;
         font-size: 18px;
@@ -101,7 +107,9 @@ header {
         padding: 3px 2px;
         margin: 2px;
         color: var(--color-secondary-light);
+        margin-top: 5px;
     }
     .scrolled-menu-item > a:hover {
         color: var(--color-primary-shaded);
     }
+

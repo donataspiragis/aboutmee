@@ -18,7 +18,7 @@
     width: calc( (100% - 3*30px) / 4 );
     padding: 60px 15px;
     border-radius: 8px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     text-align: center;
     background-color: var(--color-green);
     word-break: break-word;
@@ -93,7 +93,7 @@
     height: 57.74px;
     background-color: var(--color-blue);
     margin: 28.87px 0;
-    box-shadow: 0 0 19px rgba(0,0,0,0.6);
+    box-shadow: 0 0 7px rgba(0,0,0,0.6);
     text-align: center;
     animation: flipInX .75s ease both;
 }
@@ -110,7 +110,7 @@
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
     left: 14.6447px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+    box-shadow: 0 0 3px rgba(0,0,0,0.6);
   }
   
   .hexagon:before {
