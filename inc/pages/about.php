@@ -1,11 +1,11 @@
 <section class="section-margin dark-grey section-bigger about-me" id="about-me">
-<div class="container">
-    <div class="colum-1" data-aos="fade-right" data-aos-delay="250" data-aos-once="true">
+<div class="container about-flex">
+    <div class="media-about-1" data-aos="fade-right" data-aos-delay="250" data-aos-once="true">
         <div class="image-container">
         <img src="images/me.jpg" alt="my photo">
         </div>
     </div>
-    <div class="colum-2" data-aos="fade-left" data-aos-delay="250" data-aos-once="true">
+    <div class="media-about-2" data-aos="fade-left" data-aos-delay="250" data-aos-once="true">
     <h1 id="about" data-aos="fade-left" data-aos-delay="250" data-aos-once="true">about me</h1>
     <div class="bar-bottom bcm-red" data-aos="fade-left" data-aos-delay="270" data-aos-once="true"></div>
         <p data-aos="fade-left" data-aos-delay="300" data-aos-once="true">

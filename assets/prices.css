@@ -52,7 +52,7 @@
         padding: 10px 5px 30px 5px;
         font-size: 18px;
         line-height: 30px;
-        min-height: 409px;
+        min-height: 410px;
         max-height: 410px;
         
     }
@@ -84,73 +84,3 @@
         .price-price > p {
             margin-bottom: 15px;
         }
-
-        @media ( max-width: 1050px ) {
-            .container {
-                width: 800px;
-                margin: 0 calc((100% - 800px) / 2);
-            }
-        }
-        @media ( max-width: 800px ) {
-            .container {
-                width: 590px;
-                margin: 0 calc((100% - 590px) / 2);
-            }
-        }
-        @media ( max-width: 590px ) {
-            * {
-                margin: 0;
-            }
-            .container {
-                width: 95%;
-                margin-left: 0;
-            } 
-            .pric-cont-fl {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-            }
-            .price-card {
-                display: block;
-                width: 90%;
-                border-radius: 8px;
-                box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-                text-align: center;
-                background-color: var(--color-secondary-light);
-                word-break: break-word;
-                margin: 20px;
-            }
-            .cont-skil {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-            }
-            .card-skill {
-                display: block;
-                margin-top: 15px;
-                width: 80%;
-                padding: 15px 15px;
-                border-radius: 8px;
-                box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-                text-align: center;
-                background-color: var(--color-green);
-                word-break: break-word;
-            }
-            .card-skill:hover {
-                animation-name: none;
-                animation-duration: 0;
-                animation-iteration-count: 0;
-                margin-top: 0;
-            }
-            header {
-                display: none;
-            
-            }
-            .sticky {
-                display: none;
-            }
-        }
-
-      

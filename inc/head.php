@@ -22,7 +22,33 @@
     <link rel="stylesheet" href="assets/about.css">
     <link rel="stylesheet" href="assets/skills.css">
     <link rel="stylesheet" href="assets/prices.css">
-    
+    <link rel="stylesheet" href="assets/media.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        function _(id) {return document.getElementById(id);}
+        $(document).ready(function () {
+        $("#mybtn").click(submitForm);
+        function submitForm(){
+            var formdata = {
+                name: _("name").value,
+                phone: _("phone").value,
+                email: _("email").value,
+                comment: _("comment").value,
+                submit: true
+           };
+           
+                $.post('save.php', {data: JSON.stringify(formdata)}, function(callback) {
+                    $('#my_form').trigger("reset");
+                    alert('Thank you. We will keep in touch soon!');
+                }, "json");
+            
+                return;
+        }
+        })
+    </script>
     <title>About me</title>
 </head>
 <body>

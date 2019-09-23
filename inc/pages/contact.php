@@ -12,13 +12,15 @@ xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
 </div>
 <div class="container">
     <div class="just-colum" data-aos="zoom-in-down" data-aos-delay="300" data-aos-once="true">
-        <form action="index.php" method="post" >
-            <input type="text" name="name" class="inputs-contact" placeholder="Your name">
-            <input type="text" name="phone"  class="inputs-contact" placeholder="Your phone">
-            <input type="text" name="email"   class="inputs-contact" placeholder="Your email">
-            <textarea name="comment" class="area-text" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <button type="submit" name="submit" class="btn btn-green btn-g">Submit</button>
+        <form method="post" id="my_form">
+            <input type="text" name="name" id="name" class="inputs-contact" placeholder="Your name">
+            <input type="text" name="phone" id="phone" class="inputs-contact" placeholder="Your phone">
+            <input type="email" name="email" id="email"  class="inputs-contact" placeholder="Your email">
+            <textarea name="comment" id="comment"  class="area-text" cols="30" rows="10" placeholder="Your message"></textarea>
+            <div name="submit" id="mybtn" class="btn btn-green btn-g">Submit</div>
+            <span id="status" class="alerts"></span>
         </form>
+        
     </div>
 </div>
 </div>

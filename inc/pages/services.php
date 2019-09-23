@@ -4,7 +4,7 @@
     <div class="bar-bottom bcm-black"></div>
 </div>
 
-<div class="container cards-list revealOnScroll" data-aos="flip-up" data-aos-delay="250" data-aos-once="true">
+<div class="container cards-list" data-aos="flip-up" data-aos-delay="250" data-aos-once="true">
 <div class="card" >
     <i class="far fa-lightbulb"></i>
     <h3>Web design</h3>
@@ -25,7 +25,7 @@
     <h1 id="services">MY SERVICES ARE</h1>
     <div class="bar-bottom bcm-black"></div>
 </div>
-<div class="container" >
+<div class="container hexa-content" >
     <div class="hexa-cont">
         <div class="hexator" data-aos="flip-right"  data-aos-delay="250" data-aos-once="true">
             <div class="hexagon"><span><i class="fas fa-tachometer-alt"></i></span></div>

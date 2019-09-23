@@ -4,6 +4,9 @@ $('.menu').click(function(){
     $(this).toggleClass('open');
 });
 
+
+
+
 $(document).ready(function(){
     $("a").on('click', function(event) {
       if (this.hash !== "") {
@@ -36,3 +39,22 @@ function stickToTop() {
 }
 
 window.onscroll = function() {stickToTop()};
+
+
+
+
+// $(function () {
+//   $('#form').bind('click', function (event) {
+
+// event.preventDefault();
+//     $.ajax({
+//       type: 'POST',
+//       url: 'save.php',
+//       data: $('form').serialize(),
+//       success: function () {
+//         alert('form was submitted');
+//       }
+//     });
+
+//   });
+// });

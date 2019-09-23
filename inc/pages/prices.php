@@ -18,7 +18,7 @@
             </ol>
         </div>
         <div class="price-price">
-            <h3>Price 180 - 300 EUR
+            <h3>Price starts at 180 EUR
             </h3>
             <p><em>Depending on your requirements</em></p>
             <a href="#contact" class="btn btn-form btn-green btn-g btn-small">Let's start</a>
@@ -42,7 +42,7 @@
             </ol>
         </div>
         <div class="price-price">
-            <h3>Price 300 - 600 EUR</h3>
+            <h3>Price starts at  300 EUR</h3>
             <p><em>Depending on your requirements</em></p>
             <a href="#contact" class="btn btn-form btn-small">Let's start</a>
         </div>
