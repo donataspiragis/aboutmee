@@ -1,6 +1,11 @@
 #hist-menu {
     background-color: var(--color-secondary-light);
 }
+#history {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+}
 .histories {
     display: flex;
     flex-direction: column;

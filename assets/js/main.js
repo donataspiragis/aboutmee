@@ -58,3 +58,12 @@ window.onscroll = function() {stickToTop()};
 
 //   });
 // });
+
+$(document).ready(function(){ 
+  $('#play').click(function(){ 
+    $('#gamess').removeClass('game-container');
+    $('#gamess').addClass('game-container-show');
+    $('#cover-game').removeClass('game-img');
+    $('#cover-game').addClass('game-img-hide');
+  }); 
+});

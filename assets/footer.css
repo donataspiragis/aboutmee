@@ -17,6 +17,7 @@
     right: 0;
     margin: 0 auto;
     cursor: pointer;
+    -webkit-transition: background .5s;
     transition: background .5s;
     text-align: center;
     text-decoration: none;
@@ -24,7 +25,8 @@
 }
 #footer > a:hover {
     background: var(--color-primary-shaded-hover);
-    transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); 
 }
 
 #footer > a > i {  
@@ -42,13 +44,20 @@
     padding: 50px 0 35px 0;
 }
 #footer > .container > div > .icons-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 8px;
     padding: 2px 0;
 }
 #footer > .container > div > .icons-cont > a > .icon {
+    -webkit-transition: background 0.3s, color 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+    transition: background 0.3s, color 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
     cursor: pointer;
     width: 55px;
     height: 55px;
@@ -57,10 +66,19 @@
     margin: 0 15px;
     background: #262F38;
     font-size: 18pt;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
  .okk {
      color: var(--color-secondary-light);
@@ -68,8 +86,10 @@
  }
 #footer > .container > div > .icons-cont > a > .icon:hover {
     background: var(--color-blue);
-    box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
-    transform: scale(0.9);
+    -webkit-box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
+            box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
 }
 .copyright {
     display: inline-block;

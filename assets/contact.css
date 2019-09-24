@@ -1,21 +1,32 @@
 #contact {
-    animation: slideInLeft .75s ease both;
+    -webkit-animation: slideInLeft .75s ease both;
+            animation: slideInLeft .75s ease both;
     letter-spacing: 4px;
 }
 .contact-head {
     width: 100%;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: var(--color-secondary-light);
     margin-top: 60px;
     margin-bottom: 10px;
 }
     .contact-head > p {
         font-size: 21px;
-        animation: slideInRight .75s ease both;
+        -webkit-animation: slideInRight .75s ease both;
+                animation: slideInRight .75s ease both;
     }
 .bar-bottom {
     text-align: center;
@@ -27,7 +38,8 @@
 .inputs-contact {
     display: block;
     width: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     outline: none;
     border: 0;
     padding: 10px 15px;
@@ -39,7 +51,8 @@
 .area-text {
     display: block;
     width: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     outline: none;
     border: 0;
     padding: 10px 15px;
@@ -57,32 +70,74 @@
         margin-bottom: 40px;
         max-width: 500px;
         margin: 10px auto 20px auto;
-        animation: popIn 1s both;
+        -webkit-animation: popIn 1s both;
+                animation: popIn 1s both;
     }
+    @-webkit-keyframes slideInLeft {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateX(-300px);
+                  transform: translateX(-300px); }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+                  transform: translateX(0); } }
     @keyframes slideInLeft {
         0% {
           opacity: 0;
-          transform: translateX(-300px); }
+          -webkit-transform: translateX(-300px);
+                  transform: translateX(-300px); }
         100% {
           opacity: 1;
-          transform: translateX(0); } }
+          -webkit-transform: translateX(0);
+                  transform: translateX(0); } }
+    @-webkit-keyframes slideInRight {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(300px);
+                    transform: translateX(300px); }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateX(0);
+                    transform: translateX(0); } }
     @keyframes slideInRight {
         0% {
             opacity: 0;
-            transform: translateX(300px); }
+            -webkit-transform: translateX(300px);
+                    transform: translateX(300px); }
         100% {
             opacity: 1;
-            transform: translateX(0); } }
-    @keyframes popIn {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0); } }
+    @-webkit-keyframes popIn {
         0% {
-            transform: scale(0); }
+            -webkit-transform: scale(0);
+                    transform: scale(0); }
         60% {
             opacity: 1;
-            transform: scale(1.05); }
+            -webkit-transform: scale(1.05);
+                    transform: scale(1.05); }
         80% {
-            transform: scale(0.95); }
+            -webkit-transform: scale(0.95);
+                    transform: scale(0.95); }
         100% {
-            transform: scale(1);
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+            opacity: 1; } }
+    @keyframes popIn {
+        0% {
+            -webkit-transform: scale(0);
+                    transform: scale(0); }
+        60% {
+            opacity: 1;
+            -webkit-transform: scale(1.05);
+                    transform: scale(1.05); }
+        80% {
+            -webkit-transform: scale(0.95);
+                    transform: scale(0.95); }
+        100% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
             opacity: 1; } }
 
             .alerts {

@@ -3,11 +3,21 @@
 }
 .image-container {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    animation: slideInLeft .75s ease both;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-animation: slideInLeft .75s ease both;
+            animation: slideInLeft .75s ease both;
 }
 .media-about-1 {
     width: 50%;
@@ -21,7 +31,8 @@
     width: 50%;
 }
 .about-me > .container > .media-about-2 {
-    animation: slideInRight .75s ease both;
+    -webkit-animation: slideInRight .75s ease both;
+            animation: slideInRight .75s ease both;
     margin-bottom: 24px;
 }
 

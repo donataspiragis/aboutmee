@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/about.css">
     <link rel="stylesheet" href="assets/skills.css">
     <link rel="stylesheet" href="assets/prices.css">
+    <link rel="stylesheet" href="assets/game.css">
     <link rel="stylesheet" href="assets/media.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -49,6 +50,7 @@
         }
         })
     </script>
+    <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
     <title>About me</title>
 </head>
 <body>

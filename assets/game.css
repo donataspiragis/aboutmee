@@ -1,0 +1,50 @@
+.game-main-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    text-align: center;
+}
+    .game-main-cont > div > h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2em;
+    }
+#cover-game {
+    position: relative;
+}
+#play {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.game-container {
+    display: none;
+}
+
+.game-container-show {
+    display: inline-block;
+}
+
+.game-img {
+    display: inline-block;
+    margin: 20px 0 10px 0;
+    width: 650px; 
+    height:490px;
+    background-image: url("../images/game.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+}
+.game-img-hide {
+    display:none; 
+}
